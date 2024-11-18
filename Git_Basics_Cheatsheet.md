@@ -22,4 +22,25 @@ A quick reference for essential Git commands.
 - `git push`: Push local commits to the remote repository.
 
 ---
-For more advanced Git commands, stay tuned for upcoming guides!
+
+## 🛠️ Advanced Git Commands
+
+### Reset and Revert
+- `git reset --soft HEAD~1`: Undo the last commit but keep changes staged.
+- `git reset --hard HEAD~1`: Completely undo the last commit and discard changes.
+- `git revert <commit-hash>`: Create a new commit that reverses a specific commit.
+
+### Stashing Changes
+- `git stash`: Save changes without committing them.
+- `git stash pop`: Apply the last stashed changes and remove them from the stash.
+- `git stash list`: Show all stashed changes.
+
+### Rebasing
+- `git rebase <branch-name>`: Reapply commits from one branch onto another.
+- `git rebase -i HEAD~<n>`: Interactive rebase to squash or edit commits.
+
+### Tagging
+- `git tag <tag-name>`: Create a lightweight tag for a specific commit.
+- `git tag -a <tag-name> -m "message"`: Create an annotated tag with metadata.
+- `git push origin <tag-name>`: Push a tag to the remote repository.
+
