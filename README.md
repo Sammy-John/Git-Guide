@@ -15,5 +15,13 @@ This repository serves as a comprehensive guide to Git, covering basic commands,
 - **Week 2**: Branching Strategies and Multi-Feature Development.
 - **Week 3-6**: Advanced Git Concepts and Collaborative Workflows.
 
+## 🛠️ Branching Strategy
+- `main`: The stable branch containing production-ready content.
+- `feature/<name>`: For adding new features (e.g., `feature/cheatsheet-advanced`).
+- `bugfix/<name>`: For fixing bugs or errors in existing content.
+- `hotfix/<name>`: For critical fixes to the `main` branch.
+- `documentation/<name>`: For improving or updating documentation.
+
+
 ---
 Happy coding!
